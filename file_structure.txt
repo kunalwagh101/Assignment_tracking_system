@@ -1,0 +1,5 @@
+# Open PowerShell and navigate to the directory
+cd H:\Learn\Django\Assignment-Tracking-system
+
+# Run the following PowerShell command to list the main files and directories up to a depth of 3
+Get-ChildItem -Recurse -Depth 3 | Format-List
