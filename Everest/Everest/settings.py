@@ -15,6 +15,10 @@ import os
 from pathlib import Path
 from decouple import config
 import dj_database_url
+import sys
+print("Python Path:", sys.path)
+print("Environment Variable:", os.environ.get('DJANGO_SETTINGS_MODULE'))
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent

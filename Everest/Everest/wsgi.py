@@ -7,7 +7,10 @@ For more information on this file, see
 https://docs.djangoproject.com/en/5.0/howto/deployment/wsgi/
 """
 
-
+import os
+import sys
+print("WSGI Python Path:", sys.path)
+print("WSGI DJANGO_SETTINGS_MODULE:", os.environ.get('DJANGO_SETTINGS_MODULE'))
 
 
 import os

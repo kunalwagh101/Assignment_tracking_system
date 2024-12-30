@@ -1,1 +1,1 @@
-web: gunicorn Everest.wsgi
+web: gunicorn Everest.wsgi:application --chdir Everest
